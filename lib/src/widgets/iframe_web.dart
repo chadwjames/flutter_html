@@ -7,7 +7,7 @@ import 'package:webview_flutter/webview_flutter.dart';
 import 'package:html/dom.dart' as dom;
 // ignore: avoid_web_libraries_in_flutter
 import 'dart:html' as html;
-import 'dart:ui' as ui;
+import 'package:flutter_html/src/widgets/shims/dart_ui.dart' as ui;
 
 /// [IframeContentElement is a [ReplacedElement] with web content.
 class IframeContentElement extends ReplacedElement {
@@ -48,3 +48,4 @@ class IframeContentElement extends ReplacedElement {
     );
   }
 }
+

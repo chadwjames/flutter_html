@@ -17,7 +17,7 @@ ImageSourceMatcher base64DataUriMatcher() => (attributes, element) =>
     _src(attributes)!.contains("base64,");
 
 ImageSourceMatcher networkSourceMatcher({
-  List<String> schemas: const ["https", "http"],
+  List<String> schemas= const ["https", "http"],
   List<String>? domains,
   String? extension,
 }) =>
