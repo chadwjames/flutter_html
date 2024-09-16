@@ -4,7 +4,8 @@ version: 2.0.0-nullsafety.0
 homepage: https://github.com/Sub6Resources/flutter_html
 
 environment:
-  sdk: '>=3.1.5 <4.0.0'
+  sdk: ^3.5.3
+  flutter: '>=3.3.0'
 
 dependencies:
   # Plugin for parsing html
@@ -36,6 +37,4 @@ dependencies:
 dev_dependencies:
   flutter_test:
     sdk: flutter
-
-flutter:
 
